@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prelint": "prettier-standard '*.js'",
-    "pretest": "standard --fix *.js",
+    "lint": "standard --fix *.js",
+    "pretest": "npm run lint",
     "test": "exit 1"
   },
   "keywords": [],
