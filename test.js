@@ -2,7 +2,8 @@
 describe('add', () => {
   const add = require('.').add
   it('adds numbers', () => {
-    expect(add(1, 2)).toBe(3)
+    expect(add(1, 20)).toMatchSnapshot()
+    expect(add(100, -50)).toMatchSnapshot()
   })
 })
 describe('sub', () => {
