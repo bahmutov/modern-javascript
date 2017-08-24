@@ -1,6 +1,9 @@
-const add = (a, b) => a + b
-const sub = (a, b) => {
-  return a - b
+// index.js
+module.exports = {
+  add (a, b) {
+    return a + b
+  },
+  sub (a, b) {
+    return a - b
+  }
 }
-module.exports.add = add
-module.exports.sub = sub
