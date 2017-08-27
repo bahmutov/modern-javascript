@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example of modern javascript with linting, testing and es6 modules",
   "main": "index.js",
   "scripts": {
     "prelint": "prettier-standard '*.js'",
