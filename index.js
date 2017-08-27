@@ -1,8 +1,4 @@
 // index.js
-const add = require('./add')
-module.exports = {
-  add,
-  sub (a, b) {
-    return a - b
-  }
-}
+import {add} from './add'
+import {sub} from './sub'
+console.log(add(2, 3))
