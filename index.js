@@ -1,8 +1,7 @@
 // index.js
+const add = require('./add')
 module.exports = {
-  add (a, b) {
-    return a + b
-  },
+  add,
   sub (a, b) {
     return a - b
   }
